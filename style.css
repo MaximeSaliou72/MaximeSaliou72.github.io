@@ -30,3 +30,41 @@
   background-size: cover;
   clip-path: polygon(0 0,50% 0,100% 100%,0% 100%);
 }
+
+/* footer */
+
+footer{
+  background-color: rgb(51, 51, 51);
+}
+
+#conteneur{
+  display: flex;
+  justify-content:space-around ;
+}
+
+
+#more{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#more ul{
+  list-style: none;
+}
+
+#conteneur ul{
+  list-style: none;
+}
+
+footer a {color: white;
+}
+
+.morerules li{
+  display: inline-flex;
+  
+}
+
+.logo li{
+  max-width: 50px;
+  max max-height: 25px;
+}
