@@ -40,12 +40,14 @@ footer{
 #conteneur{
   display: flex;
   justify-content:space-around ;
+  padding:35px 60px 30px 35px;
 }
 
 
 #more{
   display: flex;
-  justify-content: flex-start;
+  justify-content:space-around;
+  padding: 35px 30px 45px 30px;
 }
 
 #more ul{
@@ -56,7 +58,7 @@ footer{
   list-style: none;
 }
 
-footer a {color: white;
+footer a {color:rgb(214, 214, 194);
 }
 
 .morerules li{
@@ -64,7 +66,10 @@ footer a {color: white;
   
 }
 
-.logo li{
-  max-width: 50px;
-  max max-height: 25px;
+
+
+.titleFooter{
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
 }
