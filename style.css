@@ -80,6 +80,23 @@
   font-weight: 700;
 }
 
+/*Barre de recherche top*/
+.rechercheTop {
+  display: -webkit-box;
+}
+.searchTop {
+  line-height: 42px;
+  width: 100%;
+}
+.searchButon {
+  background-color: #FF3008;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  line-height: 42px;
+  padding: 0 30px;
+}
+
 .lien {
   background: #ff3008;
   padding: 64px;
