@@ -2,6 +2,27 @@
 
 }
 
+.header {
+  width: 100%;
+  background: #fff;
+  height: 48px;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  z-index: 1000;
+
+}
+
+.logoHeader {
+  width: 100%;
+  text-align: center;
+}
+
+.buttonSignIn {
+  background: white;
+  color: #FF3008;
+  height: 100%;
+}
+
 .firstSlide {
   height: calc(100vh - 48px);
   max-height: 70vw;
@@ -18,6 +39,7 @@
   clip-path:polygon(100% 0%,100% 100%,50% 100%,0% 0%);
   transform: translateX(1%);
 }
+
 .imageLeft {
   background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/hero/spirits/left.jpg);
   width: 100%;
@@ -35,4 +57,15 @@
   position: absolute;
   color: white;
   top: 30%;
+}
+
+.lien {
+  background: #ff3008;
+  padding: 64px;
+  text-align: center;
+}
+
+.titrelien {
+  font-size: 32px;
+  color: #ffffff;
 }
