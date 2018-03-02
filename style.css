@@ -1,7 +1,4 @@
-.container-fluid {
-
-}
-
+/*Header*/
 .header {
   width: 100%;
   background: #fff;
@@ -9,6 +6,7 @@
   border-bottom: 1px solid #ccc;
   position: fixed;
   z-index: 1000;
+  display: flex;
 
 }
 
@@ -17,12 +15,31 @@
   text-align: center;
 }
 
+.buttonSign {
+  justify-content: flex-end;
+  display: inline-flex;
+}
+
 .buttonSignIn {
   background: white;
   color: #FF3008;
   height: 100%;
+  border:none;
 }
 
+.buttonSignUp {
+  background: #FF3008;
+  color: white;
+  height: 100%;
+  border-radius: 20px;
+  margin-right: 24px;
+  padding: 11px 16px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, .p, h1, h2, h3, h4, h5, h6, p{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,DD-ProximaNova,ProximaNova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+/*Body*/
 .firstSlide {
   height: calc(100vh - 48px);
   max-height: 70vw;
@@ -59,6 +76,10 @@
   top: 30%;
 }
 
+.titreFirstSlide {
+  font-weight: 700;
+}
+
 .lien {
   background: #ff3008;
   padding: 64px;
@@ -68,4 +89,52 @@
 .titrelien {
   font-size: 32px;
   color: #ffffff;
+}
+
+/* footer */
+
+footer{
+  background-color: rgb(51, 51, 51);
+}
+
+#conteneur{
+  display: flex;
+  justify-content:space-around ;
+}
+
+
+#more{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#more ul{
+  list-style: none;
+}
+
+#conteneur ul{
+  list-style: none;
+}
+
+footer a {
+  color: #808080;
+}
+
+.morerules li{
+  display: inline-flex;
+
+}
+
+.logo li{
+  max-width: 50px;
+  max max-height: 25px;
+}
+
+.texteFooter {
+  font-size: 14px;
+}
+
+.titleFooter {
+  font-size: 16px;
+  color: white;
 }
