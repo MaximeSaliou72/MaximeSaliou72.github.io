@@ -1,155 +1,252 @@
 /*Header*/
-.header {
-  width: 100%;
-  background: #fff;
-  height: 48px;
-  border-bottom: 1px solid #ccc;
-  position: fixed;
-  z-index: 1000;
-  display: flex;
 
+.header {
+    width: 100%;
+    z-index: 1000;
 }
 
 .logoHeader {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
+}
+
+.headerRight {
+    text-align: right;
 }
 
 .buttonSign {
-  justify-content: flex-end;
-  display: inline-flex;
+    display: inline-flex;
 }
 
 .buttonSignIn {
-  background: white;
-  color: #FF3008;
-  height: 100%;
-  border:none;
+    background: white;
+    color: #FF3008;
+    height: 100%;
+    border: none;
+    white-space: nowrap;
+    padding: 0px 2em;
 }
 
 .buttonSignUp {
-  background: #FF3008;
-  color: white;
-  height: 100%;
-  border-radius: 20px;
-  margin-right: 24px;
-  padding: 11px 16px;
+    background: #FF3008;
+    color: white;
+    height: 100%;
+    border-radius: 20px;
+    margin-right: 24px;
+    padding: 0px 2em;
+    white-space: nowrap;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, .p, h1, h2, h3, h4, h5, h6, p{
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,DD-ProximaNova,ProximaNova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  }
-/*Body*/
-.firstSlide {
-  height: calc(100vh - 48px);
-  max-height: 70vw;
+*/ .h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, DD-ProximaNova, ProximaNova, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
 
+
+/*Body*/
+
+.firstSlide {
+    height: calc(100vh - 48px);
+    max-height: 70vw;
 }
 
 .imageRight {
-  background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/hero/morning/right.jpg);
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  clip-path:polygon(100% 0%,100% 100%,50% 100%,0% 0%);
-  transform: translateX(1%);
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/hero/morning/right.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 0% 0%);
+    transform: translateX(1%);
 }
 
 .imageLeft {
-  background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/hero/spirits/left.jpg);
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  clip-path: polygon(0 0,50% 0,100% 100%,0% 100%);
-  transform: translate(-25%, -100%);
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/hero/spirits/left.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+    transform: translate(-25%, -100%);
 }
 
 .textFirstSlide {
-  max-width: 100%;
-  padding: 24px;
-  position: absolute;
-  color: white;
-  top: 30%;
+    max-width: 100%;
+    padding: 24px;
+    position: absolute;
+    color: white;
+    top: 30%;
+    white-space: nowrap;
 }
 
 .titreFirstSlide {
-  font-weight: 700;
+    font-weight: 700;
 }
 
+
 /*Barre de recherche top*/
+
 .rechercheTop {
-  display: -webkit-box;
+    display: -webkit-box;
 }
+
 .searchTop {
-  line-height: 42px;
-  width: 100%;
+    line-height: 42px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
+
 .searchButon {
-  background-color: #FF3008;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-  line-height: 42px;
-  padding: 0 30px;
+    background-color: #FF3008;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    line-height: 42px;
+    padding: 1px 3em;
+    transform: translateX(-20%);
+}
+
+.theApp {
+    transform: translate(0%, 55%)
+}
+
+.mobileAppIcon {
+    transform: translate(40%, -100%);
 }
 
 .lien {
-  background: #ff3008;
-  padding: 64px;
-  text-align: center;
+    background: #ff3008;
+    padding: 64px;
+    text-align: center;
 }
 
 .titrelien {
-  font-size: 32px;
-  color: #ffffff;
+    font-size: 32px;
+    color: #ffffff;
 }
+
+.secondSlide {
+    width: 57vw;
+    height: calc(108vh - 48px);
+    max-height: 60vw;
+    transform: translateX(-1%);
+}
+
+.secondImageSlide {
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/value-props/Tacos.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 0% 0%);
+    background-position: center bottom;
+}
+
+.texteSecondSlide {
+    padding: 5vw;
+    color: #999999;
+}
+
+.thirdSlide {
+    width: 57vw;
+    height: calc(108vh - 70px);
+    transform: translateX(-2%);
+}
+
+.thirdImageSlide {
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/value-props/Beach.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+    background-position: center bottom;
+}
+
+.texteThirdSlide {
+    padding: 10vw;
+    color: #999999;
+}
+
+.texteFourSlide {
+    padding: 5vw;
+    color: #999999;
+}
+
+.fourSlide {
+    width: 55vw;
+    height: calc(100vh - 70px);
+    max-height: 60vw;
+}
+
+.fourImageSlide {
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/value-props/Couch.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 0% 0%);
+    background-position: center bottom;
+}
+
 
 /* footer */
 
 
 /* footer */
 
-footer{
-  background-color: rgb(51, 51, 51);
+footer {
+    background-color: rgb(51, 51, 51);
 }
 
-#conteneur{
-  display: flex;
-  justify-content:space-around ;
-  padding:35px 60px 30px 35px;
+#conteneur {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 60px 30px 35px;
 }
 
-
-#more{
-  display: flex;
-  justify-content:space-around;
-  padding: 35px 30px 45px 30px;
+#more {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 30px 45px 30px;
 }
 
-#more ul{
-  list-style: none;
+#more ul {
+    list-style: none;
 }
 
-#conteneur ul{
-  list-style: none;
+#conteneur ul {
+    list-style: none;
 }
 
-footer a {color:rgb(214, 214, 194);
+footer a {
+    color: rgb(214, 214, 194);
 }
 
-.morerules li{
-  display: inline-flex;
-
+.morerules li {
+    display: inline-flex;
 }
 
-
-
-.titleFooter{
-  color: white;
-  font-weight: bold;
-  font-size: 19px;
+.titleFooter {
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
 }
