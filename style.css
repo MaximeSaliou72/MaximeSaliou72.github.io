@@ -30,46 +30,73 @@
   background-size: cover;
   clip-path: polygon(0 0,50% 0,100% 100%,0% 100%);
 }
+/* BARRE DE RECHERCHE DU BAS + GET THE APP */
+
+.rechercheTop {
+  display: -webkit-box;
+}
+
+.searchTop {
+  line-height: 42px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.searchButon {
+  background-color: #FF3008;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  line-height: 42px;
+  padding: 1px 3em;
+  transform: translateX(-20%);
+}
+
+.gettheApp {
+  transform: translate(0%, 55%)
+}
+
+.mobileAppIcon {
+  transform: translate(40%, -100%);
+}
 
 /* footer */
+
+.container-fluid {
+  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 footer{
   background-color: rgb(51, 51, 51);
 }
 
-#conteneur{
-  display: flex;
-  justify-content:space-around ;
-  padding:35px 60px 30px 35px;
+
+footer a {
+  color:rgb(214, 214, 194);
 }
 
-
-#more{
-  display: flex;
-  justify-content:space-around;
-  padding: 35px 30px 45px 30px;
-}
-
-#more ul{
+.texteFooter {
   list-style: none;
 }
-
-#conteneur ul{
-  list-style: none;
-}
-
-footer a {color:rgb(214, 214, 194);
-}
-
-.morerules li{
-  display: inline-flex;
-  
-}
-
 
 
 .titleFooter{
   color: white;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 15px;
+  list-style: none;
 }
+
+.logoFooter ul{
+  list-style: none;
+  width: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
