@@ -166,7 +166,7 @@ p {
 .thirdSlide {
     width: 57vw;
     height: calc(108vh - 70px);
-    transform: translateX(-2%);
+    transform: translateX(-12%);
 }
 
 .thirdImageSlide {
@@ -217,38 +217,36 @@ p {
 /* footer */
 
 .container-fluid {
-  padding-bottom: 15px;
-  padding-top: 25px;
-  padding-left: 100px;
-  padding-right: 100px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-footer{
-  background-color: rgb(51, 51, 51);
+footer {
+    background-color: rgb(51, 51, 51);
 }
-
 
 footer a {
-  color:rgb(214, 214, 194);
+    color: rgb(214, 214, 194);
 }
 
 .texteFooter {
-  list-style: none;
+    list-style: none;
 }
 
-
-.titleFooter{
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-  list-style: none;
+.titleFooter {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
 }
 
-.logoFooter ul{
-  list-style: none;
-  width: 50px;
+.logoFooter ul {
+    list-style: none;
+    width: 50px;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
