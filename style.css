@@ -164,6 +164,22 @@ p {
     background-position: center bottom;
 }
 
+.firstImageXs {
+    height: calc(108vh - 48px);
+    max-height: 60vw;
+    transform: translateX(2%);
+}
+
+.firstImageSlideXs {
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/value-props/Tacos.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
 .texteFirstImage {
     padding: 4vw;
     color: #999999;
@@ -189,6 +205,22 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+    background-position: center bottom;
+}
+
+.SecondImageXs {
+    height: calc(108vh - 70px);
+    max-height: 60vw;
+    transform: translateX(-2%);
+}
+
+.SecondImageSlideXs {
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/value-props/Beach.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center bottom;
 }
 
@@ -230,6 +262,21 @@ p {
     background-position: center bottom;
 }
 
+.thirdImageXs {
+    height: calc(100vh - 70px);
+    max-height: 60vw;
+    transform: translateX(2%);
+}
+
+.thirdImageSlideXs {
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/value-props/Couch.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
 
 /* footer */
 
