@@ -4,11 +4,11 @@
     width: 100%;
     z-index: 1000;
     position: fixed;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .header {
-    width: 100%;
-    z-index: 1000;  
+    width: 100%;  
 }
 
 .logoHeader {
@@ -24,7 +24,6 @@
 
 .headerRight {
     text-align: right;
-    margin-right: -25%;
 }
 
 .buttonSign {
@@ -35,7 +34,8 @@
     background: white;
     color: #FF3008;
     height: 100%;
-    border: none;
+    border-radius: 20px;
+    border:none;
     white-space: nowrap;
     padding: 3% 1em;
     font-weight: 600;
@@ -140,7 +140,7 @@ p {
     text-align: center;
 }
 .searchTopXs {
-    line-height: 42px;
+    line-height: 40px;
     width: 100%;
     border-radius: 20px;
 }
@@ -149,12 +149,13 @@ p {
     background-color: #FF3008;
     border-radius: 20px;
     color: white;
-    line-height: 42px;
+    line-height: 40px;
     padding: 1px 3em;
 }
 
 .theAppXs {
-    transform: translate(10%, 55%)
+    transform: translate(10%, 55%);
+    display: -webkit-inline-box;
 }
 
 
@@ -164,7 +165,7 @@ p {
 }
 
 .searchTop {
-    line-height: 42px;
+    line-height: 40px;
     width: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -175,7 +176,7 @@ p {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     color: white;
-    line-height: 42px;
+    line-height: 40px;
     padding: 1px 3em;
     transform: translateX(-20%);
 }
@@ -197,6 +198,7 @@ p {
 .titrelien {
     font-size: 32px;
     color: #ffffff;
+    font-family: "DD-TTNorms", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .firstImage {
