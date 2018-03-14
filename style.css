@@ -164,6 +164,22 @@ p {
     background-position: center bottom;
 }
 
+.firstImageXs {
+    height: calc(108vh - 48px);
+    max-height: 60vw;
+    transform: translateX(2%);
+}
+
+.firstImageSlideXs {
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/value-props/Tacos.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
 .texteFirstImage {
     padding: 4vw;
     color: #999999;
@@ -189,6 +205,22 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+    background-position: center bottom;
+}
+
+.SecondImageXs {
+    height: calc(108vh - 70px);
+    max-height: 60vw;
+    transform: translateX(-2%);
+}
+
+.SecondImageSlideXs {
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/value-props/Beach.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center bottom;
 }
 
@@ -230,6 +262,21 @@ p {
     background-position: center bottom;
 }
 
+.thirdImageXs {
+    height: calc(100vh - 70px);
+    max-height: 60vw;
+    transform: translateX(2%);
+}
+
+.thirdImageSlideXs {
+    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/value-props/Couch.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
 
 /* footer */
 
@@ -306,4 +353,41 @@ col-2 more{
 
 ul li {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen;
+}
+
+    /*Barre de recherche bottom*/
+
+
+.rechercheBottom {
+    display: -webkit-box;
+   
+}
+
+.searchBottom {
+    line-height: 42px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.search-Button {
+    background-color: #FF3008;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    line-height: 42px;
+    padding: 1px 3em;
+    transform: translateX(-4%);
+}
+
+.gettheApp {
+    transform: translate(0%, 55%)
+}
+
+.mobileAppicon {
+    transform: translate(75%, -120%);
+}
+
+.fiveSlide {
+    margin-left: 550px;
 }
