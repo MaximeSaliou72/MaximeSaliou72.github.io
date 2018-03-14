@@ -1,14 +1,25 @@
 /*Header*/
 
-.header {
+.headerNav {
     width: 100%;
     z-index: 1000;
+    position: fixed;
+}
+
+.header {
+    width: 100%;
+    z-index: 1000;  
 }
 
 .logoHeader {
     width: 100%;
     text-align: center;
     margin-left: -20%;
+    display: -webkit-inline-box;
+}
+
+.nameDoordash {
+    margin-left: 13px;
 }
 
 .headerRight {
@@ -63,6 +74,15 @@ p {
 
 /*Body*/
 
+.topTexteSlideXs {
+    text-align: center;
+}
+
+.topTexte {
+    color: #FF3008;
+    font-weight: 600;
+}
+
 .firstSlide {
     height: calc(100vh - 48px);
     max-height: 70vw;
@@ -104,9 +124,41 @@ p {
     font-size: 56px;
 }
 
+/*texte xs*/
+.textFirstSlideXs {
+    max-width: 100%;
+    padding: 24px;
+}
 
-/*Barre de recherche top*/
+.titreFirstSlideXs {
+    font-size: 32px;
+}
 
+/*batte de recherche top xs*/
+
+.rechercheTopXs {
+    text-align: center;
+}
+.searchTopXs {
+    line-height: 42px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.searchButonXs {
+    background-color: #FF3008;
+    border-radius: 20px;
+    color: white;
+    line-height: 42px;
+    padding: 1px 3em;
+}
+
+.theAppXs {
+    transform: translate(10%, 55%)
+}
+
+
+/*Barre de recherche top classique*/
 .rechercheTop {
     display: -webkit-box;
 }
