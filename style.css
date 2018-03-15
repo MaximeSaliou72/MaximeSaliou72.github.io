@@ -5,6 +5,7 @@
     z-index: 1000;
     position: fixed;
     border-bottom: 1px solid #CCCCCC;
+    background-color: white;    
 }
 
 .header {
@@ -15,7 +16,7 @@
     width: 100%;
     text-align: center;
     margin-left: -20%;
-    display: -webkit-inline-box;
+    display: -webkit-inline-box;    
 }
 
 .nameDoordash {
@@ -76,6 +77,7 @@ p {
 
 .topTexteSlideXs {
     text-align: center;
+    margin-top: 20%;
 }
 
 .topTexte {
@@ -132,6 +134,7 @@ p {
 
 .titreFirstSlideXs {
     font-size: 32px;
+    color: #4D4D4D;
 }
 
 /*barre de recherche top xs*/
@@ -158,6 +161,7 @@ p {
 .theAppXs {
     transform: translate(10%, 55%);
     display: -webkit-inline-box;
+    color: #4D4D4D;
 }
 
 
