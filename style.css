@@ -86,28 +86,22 @@ p {
 }
 
 .firstSlide {
-    height: calc(100vh - 48px);
+    height: calc(125vh - 0px);
     max-height: 70vw;
 }
 
 .imageRight {
-    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/hero/morning/right.jpg);
     width: 100%;
     height: 100%;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
     clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 0% 0%);
     transform: translateX(1%);
 }
 
 .imageLeft {
-    background-image: url(https://cdn.doordash.com/static/img/consumer/homepage/hero/spirits/left.jpg);
     width: 100%;
     height: 100%;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
     clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
     transform: translate(-25%, -100%);
 }
