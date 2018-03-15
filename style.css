@@ -134,7 +134,7 @@ p {
     font-size: 32px;
 }
 
-/*batte de recherche top xs*/
+/*barre de recherche top xs*/
 
 .rechercheTopXs {
     text-align: center;
@@ -143,6 +143,8 @@ p {
     line-height: 40px;
     width: 100%;
     border-radius: 20px;
+    border-color: black;
+    border-width: thin;
 }
 
 .searchButonXs {
@@ -169,6 +171,8 @@ p {
     width: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    border-color: black;
+    border-width: thin;
 }
 
 .searchButon {
@@ -197,7 +201,8 @@ p {
 
 .titrelien {
     font-size: 32px;
-    color: #ffffff;
+    color: #ffffff !important;
+    text-decoration:none !important;
     font-family: "DD-TTNorms", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -221,7 +226,6 @@ p {
 .firstImageXs {
     height: calc(108vh - 48px);
     max-height: 60vw;
-    transform: translateX(2%);
 }
 
 .firstImageSlideXs {
@@ -265,7 +269,6 @@ p {
 .SecondImageXs {
     height: calc(108vh - 70px);
     max-height: 60vw;
-    transform: translateX(-2%);
 }
 
 .SecondImageSlideXs {
@@ -319,7 +322,6 @@ p {
 .thirdImageXs {
     height: calc(100vh - 70px);
     max-height: 60vw;
-    transform: translateX(2%);
 }
 
 .thirdImageSlideXs {
