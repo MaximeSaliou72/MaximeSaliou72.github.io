@@ -336,9 +336,10 @@ p {
 
 .containerFooter {
     padding-bottom: 15px;
-    padding-top: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
 }
 
 footer {
@@ -351,20 +352,96 @@ footer a {
 
 .texteFooter {
     list-style: none;
+    font-size: 14px;
+    width: 100px;
+    
 }
 
 .titleFooter {
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     list-style: none;
+    
+}
+
+.logoFooter{
+    border: 2px solid #dbdde0;
+    border-radius: 15px;
 }
 
 .logoFooter ul {
     list-style: none;
     width: 50px;
+    
 }
+
+.bottomFooter {
+    list-style: none;
+    font-size: 13px;
+    width: 100px;
+    text-align: center;
+
+}
+
+logobottomFooter {
+    list-style: none;
+}
+
+.svg {
+
+    display: inline-flex; 
+}
+
+
 
 ul {
     list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen;
+    
+}
+
+col-2 more{
+    width: 100px;
+}
+
+ul li {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen;
+}
+
+    /*Barre de recherche bottom*/
+
+
+.rechercheBottom {
+    display: -webkit-box;
+   
+}
+
+.searchBottom {
+    line-height: 42px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.search-Button {
+    background-color: #FF3008;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    line-height: 42px;
+    padding: 1px 3em;
+    transform: translateX(-4%);
+}
+
+.gettheApp {
+    transform: translate(0%, 55%)
+}
+
+.mobileAppicon {
+    transform: translate(75%, -120%);
+}
+
+.fiveSlide {
+    margin-left: 550px;
 }
