@@ -87,7 +87,7 @@ p {
 
 .firstSlide {
     height: calc(125vh - 0px);
-    max-height: 70vw;
+    max-height: 65vw;
 }
 
 .imageRight {
@@ -337,26 +337,27 @@ p {
 .containerFooter {
     padding-bottom: 15px;
     padding-top: 30px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: auto;
     
 }
-   
+
 footer {
     background-color: rgb(51, 51, 51);
 }
-   
+
 footer a {
     color: rgb(214, 214, 194);
 }
-   
+
 .texteFooter {
     list-style: none;
     font-size: 14px;
     width: 100px;
     
 }
-   
+
 .titleFooter {
     color: white;
     font-weight: bold;
@@ -364,67 +365,67 @@ footer a {
     list-style: none;
     
 }
-   
+
 .logoFooter{
     border: 2px solid #dbdde0;
     border-radius: 15px;
 }
-   
+
 .logoFooter ul {
     list-style: none;
     width: 50px;
     
 }
-   
+
 .bottomFooter {
     list-style: none;
     font-size: 13px;
     width: 100px;
     text-align: center;
-   
+
 }
-   
+
 logobottomFooter {
     list-style: none;
 }
-   
+
 .svg {
-   
+
     display: inline-flex; 
 }
-   
-   
-   
+
+
+
 ul {
     list-style: none;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen;
     
 }
 
-col-2 more{
-    width: 100px;
-}
-   
+
+
 ul li {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen;
 }
-   
-/*Barre de recherche bottom*/
-   
-   
+
+    /*Barre de recherche bottom*/
+
+
 .rechercheBottom {
     display: -webkit-box;
-    max-width: 500px;
-    
-}
+    max-width: 370px;
+    transform : translateY(30%)
    
-.searchBottom {
+}
+
+.searchbottom {
     line-height: 31px;
     width: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    transform: translateY(99%)
 }
-   
+
 .search-Button {
     background-color: #FF3008;
     border-top-right-radius: 20px;
@@ -432,17 +433,134 @@ ul li {
     color: white;
     line-height: 32px;
     padding: 1px 3em;
-    transform: translateX(-4%);
-}
+    transform: translateX(157%);
+    
+    
    
+}
+
 .gettheApp {
     transform: translate(0%, 55%)
 }
-   
+
 .mobileAppicon {
     transform: translate(60%, -110%);
+    max-width: 180px;
 }
-   
-h3{
+
+.h3bottom{
     font-size: 16px;
+    max-width: 32Opx;
 }
+
+.h1bottom{
+    font-size: 35px;
+    max-width: 320px;
+    text-align: center
+    
+}
+
+.phone{
+    width: 310px;
+}
+
+.imgphone{
+    position: absolute;
+    width: 313px;
+    height: 499px;
+    transform: translateY(-116%)
+    
+}
+
+containerFooter p{
+    text-align: justify;
+}
+
+containerbottom p{
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 375px){
+    .Social_network{
+        display: none;
+    }
+
+    .logobottomFooter{
+        display:none;
+
+    }
+
+    .rechercheBottom {
+        display: -webkit-box;
+        max-width: 370px;
+        transform : translateY(25%)
+       
+    }
+    
+    .searchbottom {
+        line-height: 31px;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        transform: translateY(110%)
+    }
+    
+    .search-Button {
+        background-color: #FF3008;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: white;
+        line-height: 15px;
+        padding: 1px 3em;
+        transform: translateX(80%);
+    }
+
+    .containerbottom {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .mobileAppicon {
+        transform: translate(100%, -100%);
+       
+    }
+
+}
+
+@media screen and (max-width: 790px){
+
+
+    .rechercheBottom {
+        display: -webkit-box;
+        max-width: 370px;
+        transform : translateY(25%)
+       
+    }
+    
+    .searchbottom {
+        line-height: 31px;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        transform: translateY(110%)
+    }
+    
+    .search-Button {
+        background-color: #FF3008;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: white;
+        line-height: 15px;
+        padding: 1px 3em;
+        transform: translateX(80%);
+    }
+
+    .container-fluid {
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
+
