@@ -557,10 +557,5 @@ containerbottom p{
         transform: translateX(80%);
     }
 
-    .container-fluid {
-        padding: 0px;
-        margin: 0px;
-    }
-
 }
 
